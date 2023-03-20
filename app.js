@@ -121,13 +121,13 @@ for (let i =0 ; i <= sumOfTheNumber ; i++){
 }
 alert(result)
 
+
 let AvgOfTheNumber =  prompt('Enter a number')
 let arr=[];
 let AvgResult=0;
-for (let i =0 ; i <= avgOfTheNumber ; i++){
-    result = result+i
-    for (let j=0 ; j <= avgOfTheNumber;j++){
-        arr[j] = result
-    }
+for (let i =0 ; i <= AvgOfTheNumber ; i++){
+    AvgResult = AvgResult+i
+    arr[i] = AvgResult
+    
 }
 alert(AvgResult/arr.length)
