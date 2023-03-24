@@ -131,3 +131,5 @@ for (let i =0 ; i <= AvgOfTheNumber ; i++){
     
 }
 alert(AvgResult/arr.length)
+console.log(arr)
+
